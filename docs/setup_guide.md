@@ -184,6 +184,7 @@ az group show --name $rg --query location -o tsv
 ```bash
 az version
 ```
+<img width="284" height="190" alt="S19W4-checkAzureCLI" src="https://github.com/user-attachments/assets/61702546-e15b-4221-8f9e-6084329cb6d7" />
 
 ✅ **Checkpoint:** You should see Azure CLI version 2.79+ already installed in Cloud Shell
 
