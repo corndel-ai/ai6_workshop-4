@@ -333,6 +333,7 @@ Then check it's installed successfully with:
 ```bash
 az bicep version
 ```
+<img width="636" height="116" alt="S20W4-FinalEnvironmentChecks" src="https://github.com/user-attachments/assets/82fae775-76c3-489b-a243-50a60ef44e07" />
 
 ✅ **Checkpoint:** You see Bicep CLI version (0.20.0 or newer)
 
@@ -346,6 +347,7 @@ az bicep version
 echo "Resource Group: $rg"
 echo "Ready for workshop!"
 ```
+<img width="377" height="74" alt="S21W4-ReadyEchos" src="https://github.com/user-attachments/assets/059fb812-c973-4d03-b5d7-61be9a8f1fb5" />
 
 ✅ **Checkpoint:** You see your resource group name
 
