@@ -14,7 +14,7 @@ This file contains all ASCII art diagrams used throughout the workshop. Copy-pas
 ╠════════════════════════════════════════════════════════════════════╣
 ║                                                                    ║
 ║   ┌─────────────┐                                                 ║
-║   │   Internet  │  HTTPS (no TLS enforcement)                     ║
+║   │   Internet  │  HTTPS (TLS 1.0)                                 ║
 ║   │  External   │ ─────────────────┐                              ║
 ║   │   Vendor    │                  │                              ║
 ║   └─────────────┘                  ▼                              ║
