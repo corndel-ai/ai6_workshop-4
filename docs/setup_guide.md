@@ -101,17 +101,28 @@ Before starting Activity 1, ensure you have:
 ### Launch Cloud Shell
 
 1. Click the **Cloud Shell icon** (>_) in the top-right toolbar
+<img width="1905" height="71" alt="S8W4-CloudShellToolbar" src="https://github.com/user-attachments/assets/8fe7391b-70ba-4ace-b4c4-602622d71f82" />
+
 2. Select **Bash** if prompted
+<img width="1156" height="891" alt="S9W4-BashSelection" src="https://github.com/user-attachments/assets/02312934-50aa-4b3b-8902-95a1e061942c" />
+
 3. Select "Mount storage account"
 4. Select the one storage account subscription available in the drop-down (will look like "Px-Real Hands-On Labs")
 5. Click "Apply"
+<img width="780" height="302" alt="S10W4-SubscriptionConfig" src="https://github.com/user-attachments/assets/232184e0-e129-4b54-82ab-dbdb2ba7a2d8" />
+
 6. Select "I want to create a storage account" and click "Next"
+<img width="593" height="267" alt="S11W4-MountStorageAccount" src="https://github.com/user-attachments/assets/6cb3d7c2-b1cb-4a4c-8c1e-c05565e0913f" />
+
 7. Select the one available resource group under "Resource group" (which should have the same name as that in the top-left corner of the dashboard)
-8. Select the region that matches the "Location" in the dashboard (look in the middle of the screen under "Essentials"), which is often (but not always) "East US"
+8. Select the region that matches the "Location" in the dashboard (look in the middle of the screen under "Essentials"), which is often (but not always) "East US". For example, the screenshot shows "West US".
 9. Provide a "Storage account name" and "File share". These can be whatever you want, but make them easy to identify e.g. `cloudaccount` and `cloudfiles`, respectively.
 10. Click "Create"
+<img width="1281" height="767" alt="S12W4-CreateStorageAccount" src="https://github.com/user-attachments/assets/cb45afbe-2082-4f72-b60f-9f58387b5350" />
+
 11. Wait for Cloud Shell to initialise (~30 seconds)
-12. Once initialised, click the "Settings" button in the toolbar for the Cloude Shell (which has a cog icon beside it) and select "Go to Classic Version".
+<img width="599" height="268" alt="S13W4-WaitingCloudShellConfig" src="https://github.com/user-attachments/assets/1b9320d2-e829-49ce-9aa5-c6afb0758977" />
+<img width="1086" height="227" alt="S14W4-CloudShellInitialised" src="https://github.com/user-attachments/assets/99728895-5df9-46f6-aa8c-c3b7e0c0abc4" />
 
 ---
 
