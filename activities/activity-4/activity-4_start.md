@@ -152,7 +152,6 @@ code main_secure.bicep
 | **allowBlobPublicAccess** | true | false |
 | **minimumTlsVersion** | 'TLS1_0' | 'TLS1_2' |
 | **Container publicAccess** | 'Blob' | 'None' |
-| **kind** | Missing (BCP035 warning) | 'StorageV2' |
 
 ---
 
@@ -167,7 +166,7 @@ resource secureStorage 'Microsoft.Storage/storageAccounts@2021-09-01' = {
   sku: {
     name: 'Standard_LRS'
   }
-  kind: 'StorageV2'  // ✅ Modern storage type
+  kind: 'StorageV2'
 
   properties: {
     allowBlobPublicAccess: false   // ✅ FIX #1
