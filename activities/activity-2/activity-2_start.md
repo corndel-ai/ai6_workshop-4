@@ -177,7 +177,6 @@ legacyg4k7m9x2pq3s          eastus      1-e58d5f37-playground-sandbox
 **Option 1: If working from the Cloud Shell**
 
 ```bash
-# Get the storage account name
 export STORAGE_ACCOUNT=$(az storage account list -g $rg --query "[1].name" -o tsv)
 echo "Storage account: $STORAGE_ACCOUNT"
 ```
@@ -195,7 +194,6 @@ echo "Storage account: $STORAGE_ACCOUNT"
 **Then for both:**
 
 ```bash
-# List containers
 az storage container list \
   --account-name $STORAGE_ACCOUNT \
   --auth-mode login \
