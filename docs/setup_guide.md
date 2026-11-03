@@ -75,10 +75,24 @@ Before starting Activity 1, ensure you have:
 ### Login to Azure Portal
 
 1. Start an Azure Cloud sandbox (just the normal cloud sandbox, not an AI one)
+<img width="1067" height="337" alt="S1W4-Cloud_Sandbox" src="https://github.com/user-attachments/assets/9142ce30-e710-4d20-9d31-251b196340c2" />
+<img width="1782" height="797" alt="S2W4-Azure_Sandbox" src="https://github.com/user-attachments/assets/7148175f-927e-4214-a8ee-f7e4407cc136" />
+
 2. Ensure you're not signed in to a Microsoft account in your private browsing window already. If you are, close all private browsing windowe before you proceed.
-3. Right-click the "Open Sandbox" button and open in a private browsing window
-4. Login with your Pluralsight sandbox credentials
-5. Verify you see the Azure Portal dashboard
+
+3. Click on the "Start Sandbox" button and wait for the sandbox to be ready to open.
+<img width="871" height="612" alt="S3W4-StartSandbox" src="https://github.com/user-attachments/assets/782b934b-ebcd-45dc-946a-2eb04a618140" />
+
+4. Once the sandbox is ready, right click on the "Open Sandbox" button and open in a private window (or equivalent in your browser).
+<img width="864" height="618" alt="S4W4-OpenSandbox" src="https://github.com/user-attachments/assets/dc3403eb-5ec4-4340-8782-ba9ebece2d7a" />
+
+5. Login with your Pluralsight sandbox credentials
+<img width="1883" height="999" alt="S5W4-LoginUsername" src="https://github.com/user-attachments/assets/7a686c24-d180-4d3e-ac9b-d070122a6637" />
+<img width="1877" height="991" alt="S6W4-LoginPassword" src="https://github.com/user-attachments/assets/ece41471-882e-422b-96c1-14a793d8b9c1" />
+
+6. Verify you see the Azure Portal dashboard
+<img width="1890" height="968" alt="S7W4-AzureDashboardRunning" src="https://github.com/user-attachments/assets/418d6ead-2497-4a32-a47e-922935a6f77a" />
+
 
 ✅ **Checkpoint:** You can see your resource group name in the top-left hand corner (looks like "1-xxxxxxxx-playground-sandbox"), with "Resource group" beneath it.
 
