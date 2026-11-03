@@ -151,6 +151,13 @@ Outputs help verify what was deployed.
 
 ---
 
+### Step 8: Save the File
+
+✅ **Save**: Ctrl+S (Cmd+S on Mac)
+
+
+---
+
 ## ✅ Checkpoint: Your Parameterised Template
 
 Your complete template should now look like:
