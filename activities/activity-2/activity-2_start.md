@@ -67,6 +67,7 @@ code legacy.bicep
 ```
 
 **🌐 Cloud Shell:** Opens in built-in browser editor
+<img width="1240" height="660" alt="S22W4-legacybicep" src="https://github.com/user-attachments/assets/01e6dec8-14ed-45a6-a1f5-e6ff1355b3ff" />
 
 **💻 Codespaces:** Opens in VS Code editor
 
@@ -103,6 +104,7 @@ Copy the entire content from [templates/legacy.bicep](../../templates/legacy.bic
 ```bash
 ls -l legacy.bicep
 ```
+<img width="1269" height="810" alt="S23W4-legacybicepdone" src="https://github.com/user-attachments/assets/6bf1c5d8-8f11-4f3b-a2a3-4e6e9b9e82e7" />
 
 ---
 
@@ -122,15 +124,8 @@ az deployment group create \
 ```
 
 ⏱️ **This will take 1-2 minutes.** You'll see progress output as Azure creates the resources.
+<img width="1605" height="425" alt="S24W4-UpdatedOutput" src="https://github.com/user-attachments/assets/2f18bfbe-ef32-403c-aa38-b611f379a8a2" />
 
-⚠️ **Expected Warning: BCP035**
-
-You may see a warning like:
-```
-Warning BCP035: Missing property "kind" in resource definition
-```
-
-💡 **This is intentional!** The legacy template is missing the `kind` property to reinforce that it's old/incomplete code. The deployment will still succeed.
 
 📖 While it deploys this is a great opportunity to read the docs for the command you just ran: `az deployment group create` https://learn.microsoft.com/en-us/cli/azure/deployment/group?view=azure-cli-latest#az-deployment-group-create 
 
@@ -159,6 +154,8 @@ Get comfortable navigating official documentation so you can work confidently an
 ```bash
 az storage account list -g $rg -o table
 ```
+<img width="1723" height="77" alt="S25W4B-updateddeploymentsuccesscheck" src="https://github.com/user-attachments/assets/4b6ea855-dc1d-473e-b5c4-eb0919667b0d" />
+
 
 ✅ **Checkpoint:** You should see a storage account with a name like `legacy<random-string>`. You may also see additional storage accounts, but what is important is that you see this one. Note that the "Name" column is quite far to the right.
 
@@ -185,6 +182,9 @@ export STORAGE_ACCOUNT=$(az storage account list -g $rg --query "[1].name" -o ts
 echo "Storage account: $STORAGE_ACCOUNT"
 ```
 
+<img width="775" height="58" alt="S26W4-containerinspection" src="https://github.com/user-attachments/assets/2f94f1a7-5c27-42ff-b8eb-19989c95206e" />
+
+
 **Option 2: If working from Codespaces**
 
 ```bash
@@ -202,6 +202,8 @@ az storage container list \
   --query "[].{Name:name, PublicAccess:properties.publicAccess}" \
   --output table
 ```
+<img width="1344" height="73" alt="S27W4-containerlist" src="https://github.com/user-attachments/assets/c86a59b8-6c8c-4569-a3d2-6c8807ab2e94" />
+
 
 ✅ **Checkpoint:** You should see a container called `raw-insecure` with `PublicAccess: blob`
 
@@ -222,6 +224,9 @@ az storage account show \
   --query "{Name:name, TLS:minimumTlsVersion, PublicAccess:allowBlobPublicAccess}" \
   --output table
 ```
+
+<img width="680" height="150" alt="S28W4-TLScheck" src="https://github.com/user-attachments/assets/76812cf3-6679-47c3-b0a1-2b9dc9ae7895" />
+
 
 ✅ **Checkpoint:** You should see:
 - `TLS: TLS1_0` ❌ (Vulnerable!)
