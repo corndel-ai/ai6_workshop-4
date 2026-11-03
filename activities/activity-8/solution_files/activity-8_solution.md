@@ -76,7 +76,7 @@ az storage account show \
 | **allowBlobPublicAccess** | true ❌ | false ✅ |
 | **minimumTlsVersion** | TLS1_0 ❌ | TLS1_2 ✅ |
 | **Container publicAccess** | Blob ❌ | None ✅ |
-| **Tags** | None | 4 governance tags ✅ |
+| **Tags** | None | 3 governance tags ✅ |
 
 ---
 
