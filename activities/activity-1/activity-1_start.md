@@ -36,7 +36,7 @@ Below is a diagram showing what Sam built. Your task is to spot the security pro
 ╠════════════════════════════════════════════════════════════════════╣
 ║                                                                    ║
 ║   ┌─────────────┐                                                 ║
-║   │   Internet  │  HTTPS (no TLS enforcement)                     ║
+║   │   Internet  │  HTTPS (TLS 1.0)                                 ║
 ║   │  External   │ ─────────────────┐                              ║
 ║   │   Vendor    │                  │                              ║
 ║   └─────────────┘                  ▼                              ║
