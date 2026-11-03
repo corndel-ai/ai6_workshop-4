@@ -135,6 +135,7 @@ Before starting Activity 1, ensure you have:
 ```bash
 az group list --output table
 ```
+<img width="478" height="287" alt="S15W4-azgrouplist" src="https://github.com/user-attachments/assets/7cd41517-d3d0-46a0-a0ab-ba30ddad0b09" />
 
 ✅ **Checkpoint:** You should see one resource group like `1-e58d5f37-playground-sandbox`
 
@@ -148,6 +149,7 @@ az group list --output table
 export rg=$(az group list --query "[0].name" -o tsv)
 echo $rg
 ```
+<img width="547" height="59" alt="S16W4-echoresourcegroup" src="https://github.com/user-attachments/assets/5191aa9a-6589-4a52-86b5-42277afb2eb7" />
 
 ✅ **Checkpoint:** You see your resource group name printed
 
@@ -156,6 +158,7 @@ echo $rg
 ```bash
 echo "export rg=$(az group list --query "[0].name" -o tsv)" >> ~/.bashrc
 ```
+<img width="685" height="43" alt="S17W4-persist" src="https://github.com/user-attachments/assets/d7cebabe-1a9b-46b2-9244-90862300a0f0" />
 
 ---
 
@@ -166,6 +169,7 @@ echo "export rg=$(az group list --query "[0].name" -o tsv)" >> ~/.bashrc
 ```bash
 az group show --name $rg --query location -o tsv
 ```
+<img width="503" height="39" alt="S18W4-Verifyregion" src="https://github.com/user-attachments/assets/bcc00c71-259d-408a-8ca0-97f161f790be" />
 
 ✅ **Checkpoint:** You should see a us region such as `eastus` or `westus`
 
