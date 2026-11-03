@@ -11,7 +11,12 @@ resource legacyStorage 'Microsoft.Storage/storageAccounts@2021-09-01' = {
   sku: {
     name: 'Standard_LRS'
   }
-  // Note: Missing 'kind' property (BCP035 warning expected - reinforces legacy nature)
+  
+  // StorageV2 is required for deployment in the current Azure environment.
+  // The insecure properties below intentionally simulate the inherited
+  // configuration of a legacy system.
+  kind: 'StorageV2'
+
   properties: {
     // ❌ VULNERABILITY 1: Public access enabled
     allowBlobPublicAccess: true
