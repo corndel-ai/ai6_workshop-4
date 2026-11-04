@@ -51,7 +51,7 @@ A secure storage template needs **three resources**:
 
 You'll use a starter template with TODOs that guide you through building the secure version.
 
-### Step 1: Chec the text in the Starter Template
+### Step 1: Check the text in the Starter Template
 
 ⌨️ **Use the text from here in the workshop repo:**
 
