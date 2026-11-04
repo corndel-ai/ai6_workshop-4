@@ -67,7 +67,7 @@ You'll use a starter template with TODOs that guide you through building the sec
 code main_secure.bicep
 ```
 
-Paste in the template code [main_secure_starter.bicep](../../templates/main_secure_starter.bicep) with its TODOs and hints.
+Paste in the template code [main_secure_starter.bicep](../../templates/main_secure_starter.bicep) with its TODOs and hints in `main_secure.bicep`, which should've opened up.
 
 ---
 
