@@ -51,9 +51,9 @@ A secure storage template needs **three resources**:
 
 You'll use a starter template with TODOs that guide you through building the secure version.
 
-### Step 1: Copy the text in the Starter Template
+### Step 1: Chec the text in the Starter Template
 
-⌨️ **Copy the text from here in the workshop repo:**
+⌨️ **Use the text from here in the workshop repo:**
 
 [main_secure_starter.bicep](../../templates/main_secure_starter.bicep)
 
@@ -67,7 +67,7 @@ You'll use a starter template with TODOs that guide you through building the sec
 code main_secure.bicep
 ```
 
-Paste in the template with its TODOs and hints.
+Paste in the template code [main_secure_starter.bicep](../../templates/main_secure_starter.bicep) with its TODOs and hints.
 
 ---
 
